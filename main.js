@@ -1,9 +1,20 @@
 /*******************************************************************************
  * Your code here!
  ******************************************************************************/
+fI= getInput(0)
+sI = getInput(1)
+
+const getInitials = function(str1,str2){
+
+  let initials= ''
+initials += str1[0] + '.' + str2[0] + '.'
+
+length= str1.length + str2.length
 
 
-
+  return console.log ('Hey',initials +',' + ' mind if i call you that?' + ' Your name is', length, 'letters long!' ) 
+}
+getInitials(fI,sI)
 /*******************************************************************************
   The below helper function will return an argument the user used when launching
   the app.
